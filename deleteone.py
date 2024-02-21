@@ -3,7 +3,7 @@ from pymongo.server_api import ServerApi
 from bson.objectid import ObjectId
 import pprint
 
-uri = "mongodb+srv://nikshepkulli9:mongodb1234@cluster0.2z6l7np.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://tejum2108:<password>@cluster0.1dc7j9s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
